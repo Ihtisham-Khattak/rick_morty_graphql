@@ -14,7 +14,7 @@ const GET_RICK_MORTY = gql`
     }
   }
 `;
-export const CharacterAPI = () => {
+export const CharacterList = () => {
   const { error, loading, data } = useQuery(GET_RICK_MORTY);
 
   return {

@@ -1,7 +1,9 @@
-.characterlist{
-   display: flex;
-   flex-wrap: wrap;
-   align-items: baseline;
-   gap: 20px;
-   /* flex-direction: column; */
+* {
+  margin: 5px;
+  padding: 10px;
+}
+.characterlist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
