@@ -11,7 +11,6 @@ function App() {
         </Route>
         <Route path="/:id" element={<SearchCharacter />}> Search Character</Route>
       </Routes>
-      <Characterlist />
     </div>
   );
 }

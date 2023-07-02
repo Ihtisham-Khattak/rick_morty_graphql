@@ -3,13 +3,15 @@ import { useQuery, gql } from "@apollo/client";
 const GET_SEARCH_CHAR = gql`
   query Get_Character($id: ID!) {
     character(id: $id) {
-      results {
+      id
+      name
+      image
+      gender
+      episode {
         id
         name
-        status
-        species
-        gender
-        image
+        air_date
+        episode
       }
     }
   }
