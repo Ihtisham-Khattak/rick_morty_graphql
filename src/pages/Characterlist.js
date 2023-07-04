@@ -13,7 +13,7 @@ const Characterlist = () => {
   return (
     <div className="characterlist">
       {/* <h1>Graph QL</h1> */}
-      {data.characters.results.map((character) => (
+      {data?.characters?.results?.map((character) => (
         <div>
           <Link to={`/${character.id}`}>
             <img src={character.image} alt="iamges" key={character.id} />
